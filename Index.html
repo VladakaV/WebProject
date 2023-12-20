@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel = "stylesheet" href = "bootstrap/bootstrap.min.css">
+    <script src = "bootstrap/bootstrap.min.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,14 +13,15 @@
         <div class="video-bg">
             <video src = "image_resources/Realistic Space Footage (1080p) _ Футаж космос.mp4" type = "video/mp4" muted loop autoplay></video>
             <div class="effect-video-bg"></div>
-            <div class="video-bg-content">
-                <div class="upper-menu">
-                    <div class="upper-menu-left-first">
-                        <div class="logo-icon"></div>
-                        <div class="logo-name">KOSMOS</div>
+            <div class="video-bg-content container-fluid d-flex flex-column">
+                <div class="upper-menu row-2 d-flex flex-row">
+                    <div class="upper-menu-left-first col-3 d-flex flex-row">
+                        <div class="logo-icon col-3"></div>
+                        <div class="logo-name col-9 px-2">KOSMOS</div>
                     </div>
-                    <div class="upper-menu-left-second">
-                        <div class="menu-content dropdown-menu">АДМИНИСТРИРОВАНИЕ
+                    <div class="upper-menu-left-second contaniner col-6 d-flex flex-row justify-content-start">
+                        <div class="menu-content mx-3 dropdown-menu">
+                            АДМИНИСТРИРОВАНИЕ
                             <div class="dropdown">
                                 <a href="#" class="dropdown-1">Миграции</a>
                                 <a href="#" class="dropdown-2">Мэкапы</a>
@@ -30,19 +33,96 @@
                         <div class="menu-content">ОТЗЫВЫ</div>
                         <div class="menu-content">КОНТАКТЫ</div>
                     </div>
-                    <div class="upper-menu-left-third">
-                        <div class="upper-menu-third-blocks">
+                    <div class="upper-menu-left-third col-3 text-center d-flex flex-row justify-content-end">
+                        <div class="upper-menu-third-blocks col-6">
                             8 800 222-26-73
                         </div>
-                        <div class="upper-menu-third-blocks">
+                        <div class="upper-menu-third-blocks col-3">
                             RU
                         </div>
                     </div>
                 </div>
-                <div class="down-menu">
-                    <div class="down-menu-left">
+                <div class="down-menu row-10 d-flex flex-row">
+                    <div class="down-menu-left d-flex flex-column">
+                        <div class="down-menu-left-title">
+                            <h1>
+                                Поддержка сайтов на Drupal
+                            </h1>
+                        </div>
+                        <div class="down-menu-left-desc">
+                            <p>
+                                Сопровождение и поддержка сайтов на CMS Drupal любых версий и запущенности
+                            </p>
+                        </div>
+                        <div class="down-menu-left-button">
+                            <button class="button-down-menu">
+                                ТАРИФЫ
+                            </button>
+                        </div>
                     </div>
-                    <div class="down-menu-right"></div>
+                    <div class="down-menu-right">
+                        <div class="achivments col-md-6 d-flex flex-column py-4">
+                            <div class="achivments_first_row d-flex">
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        #1
+                                        <img src="img/cup.png" alt="cup">
+                                    </div>
+                                    <div class="achivment_description">
+                                        Drupal developer <br> in the Runet Rating
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        3+
+                                    </div>
+                                    <div class="achivment_description">
+                                        our specialists have 3+<br>
+                                        years of Drupal<br>
+                                        experience<br>
+                                        on average
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        18
+                                    </div>
+                                    <div class="achivment_description">
+                                        years of Drupal-related<br>
+                                        experience
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achivments_second_row d-flex">
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        50
+                                    </div>
+                                    <div class="achivment_description">
+                                        DrupalGive themes<br>
+                                        and modules
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        90 000+
+                                    </div>
+                                    <div class="achivment_description">
+                                        hours supporting<br>
+                                        Drupal-powered sites
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        300+
+                                    </div>
+                                    <div class="achivment_description">
+                                        sites on support
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
