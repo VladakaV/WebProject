@@ -1,11 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    
 }
 
 div {
-    /* border: 2px solid brown; */
+    border: 2px solid brown;
 }
 
 .video-bg {
@@ -36,27 +35,51 @@ div {
     left: 0;
     width: 100%;
     height: 500px;
-    display: flex;
-    flex-direction: column;
 }
 
 .upper-menu {
     width: 100%;
-    height: 15%;
-    display: flex;
-    flex-direction: row;
+    height: 100px;
 }
 
 .down-menu {
     width: 100%;
-    height: 85%;
-    display: flex;
-    flex-direction: row;
 }
 
 .down-menu-left {
     width: 50%;
     height: auto;
+    align-items: center;
+    color: white;
+    z-index: 2;
+    font-size: 33px;
+    line-height: 1;
+}
+.down-menu-left-title {
+    height: 40%;
+    width: 70%;
+
+}
+.down-menu-left-desc {
+    height: 20%;
+    width: 70%;
+    font-size: 23px;
+    opacity: 0.6;
+}
+
+.down-menu-left-button {
+    height: 40%;
+    width: 70%;
+}
+
+.button-down-menu {
+   width: 40%;
+   height: 40%;
+   margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(224, 135, 0);
+    border-radius: 5%;
 }
 
 .down-menu-right {
@@ -65,35 +88,17 @@ div {
 }
 
 .upper-menu-left-first {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     transition: .5s;
     z-index: 2;
 }
-.upper-menu-left-second {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-}
+
 .upper-menu-left-third {
-    width: 30%;
-    text-align: center;
     color: white;
     z-index: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .upper-menu-third-blocks {
-    width: 25%;
-    height: 100%;
     line-height: 70px;
-    
 }
 
 .logo-icon {
@@ -106,7 +111,6 @@ div {
 }
 
 .logo-name {
-    width: 40%;
     color: white;
     margin-top: 15px;
     z-index: 2;
@@ -119,8 +123,8 @@ div {
 }
 
 .menu-content {
-    width: 20%;
     height: 100%;
+    width: 20%;
     position: relative;
     display: inline-block;
     color: white;
@@ -140,8 +144,13 @@ div {
     left: 0;
     width: 100%;
     z-index: 3;
-    height: 0;
+    visibility: hidden;
 }
+
+.dropdown.active {
+    visibility: visible;
+}
+
 
 .dropdown a {
     background-color: rgb(219, 121, 86);
