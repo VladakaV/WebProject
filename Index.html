@@ -1,76 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>
+        WEB-Project
+    </title>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style1.css">
     <link rel = "stylesheet" href = "bootstrap/bootstrap.min.css">
     <script src = "bootstrap/bootstrap.min.js" defer></script>
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="mobile_navbar.js" defer></script>
 </head>
-
-
-
-
 <body>
+    <div class="mobileNavBar_block">
+        <div class="accordion">
+            <h3>DRUPAL SUPPORT</h3>
+            <h3 class="accordion">WEB SERVER ADMINISTRATION◿</h3>
+            <div class="dropdown-content-mobile ">
+                <h5><a class="drop_a_1-m py-1" href="#">Migration</a></h5>
+                <div>
+                    <h5><a class="drop_a_2-m py-1" href="#">Backups</a></h5>
+                </div>
+                <h5><a class="drop_a_3-m py-1" href="#">Optimization</a></h5>
+            </div>
+            <h3>BLOG</h3>
+            <h3>SEO PROMOTION</h3>
+            <h3>ABOUT</h3>
+            <h3><a href="#customers" title="Customers">CUSTOMERS</a></h3>
+            <h3><a href="#contacts" title="Contacts">CONTACTS</a></h3>
+        </div>
+        <div class="mobileNavBar_sidebar d-flex justify-content-between">
+            <div class="mobileNavBar_logo pt-2">
+                <div class="mobileNavBar_logo_wrapper">
+                    <img id="" src="image_resources/drupal-coder.svg" alt="drupal-coder" />
+                </div>
+
+            </div>
+            <div class="mobileNavBar_btn mb-1 px-2">≡</div>
+        </div>
+    </div>
     <header>
-        <div class="video-bg">
-            <video src = "image_resources/Realistic Space Footage (1080p) _ Футаж космос.mp4" type = "video/mp4" muted loop autoplay></video>
-            <div class="effect-video-bg"></div>
-            <div class="video-bg-content container-fluid d-flex flex-column">
-                <div class="upper-menu row-2 d-flex flex-row">
-                    <div class="upper-menu-left-first col-3 d-flex flex-row">
-                        <div class="logo-icon col-3"></div>
-                        <div class="logo-name col-9 px-2">KOSMOS</div>
+        <div class="header_block pb-5">
+            <div class="navBar_block container pt-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <img id="logo" src="image_resources/drupal-coder.svg" alt="drupal-coder" />
                     </div>
-                    <div class="upper-menu-left-second contaniner col-6 d-flex flex-row justify-content-start">
-                        <div class="menu-content mx-3">
-                            АДМИНИСТРИРОВАНИЕ
-                            <div class="dropdown">
-                                <a href="#" class="dropdown-1">Миграции</a>
-                                <a href="#" class="dropdown-2">Мэкапы</a>
-                                <a href="#" class="dropdown-3">Оптимизация</a>
+                    <div class="nav_bar p-2">
+                        <div class="d-flex justify-content-around px-2">
+                            <div class="px-2 flex-fill">
+                                DRUPAL SUPPORT
                             </div>
-                        </div>
-                        <div class="menu-content">ТАРИФЫ</div>
-                        <div class="menu-content">НАШИ РАБОТЫ</div>
-                        <div class="menu-content">ОТЗЫВЫ</div>
-                        <div class="menu-content">КОНТАКТЫ</div>
-                    </div>
-                    <div class="upper-menu-left-third col-3 text-center d-flex flex-row justify-content-end">
-                        <div class="upper-menu-third-blocks col-6">
-                            8 800 222-26-73
-                        </div>
-                        <div class="upper-menu-third-blocks col-3">
-                            RU
+                            <div class="dropdown_main px-2 flex-fill">
+                                <div class="dropdown">
+                                    <p class="m-0">WEB SERVER ADMINISTRATION◿</p>
+                                    <div class="dropdown-content ">
+                                        <a class="drop_a_1" href="#">Migration</a>
+                                        <a class="drop_a_2" href="#">Backups</a>
+                                        <a class="drop_a_3" href="#">Optimization</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="px-2 flex-fill">
+                                BLOG
+                            </div>
+                            <div class="px-2 flex-fill">
+                                SEO PROMOTION
+                            </div>
+                            <div class="px-2 flex-fill">
+                                ABOUT
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="#customers" title="Customers">CUSTOMERS</a>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="#contacts" title="Contacts">CONTACTS</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="down-menu row-10 d-flex flex-row">
-                    <div class="down-menu-left d-flex flex-column">
-                        <div class="down-menu-left-title">
-                            <h1>
-                                Поддержка сайтов на Drupal
-                            </h1>
+            </div>
+
+            <div class="otherHeader_block">
+                <video autoplay muted loop class="header_video w-100">
+                    <source src="image_resources/Realistic Space Footage (1080p) _ Футаж космос.mp4" type="video/mp4">
+                </video>
+                <div class="content container">
+                    <div class="d-flex flex-wrap pt-5">
+                        <div class="drupal_development col-md-6 col-6 py-4">
+                            <h1 class="m-0">Drupal <br> development</h1>
+                            <div class="m-1"> Development and support of <br> Drupal-powered websites since 2005</div>
+                            <a href="#tariff" class="btn m-1">Plans</a>
                         </div>
-                        <div class="down-menu-left-desc">
-                            <p>
-                                Сопровождение и поддержка сайтов на CMS Drupal любых версий и запущенности
-                            </p>
-                        </div>
-                        <div class="down-menu-left-button">
-                            <button class="button-down-menu">
-                                ТАРИФЫ
-                            </button>
-                        </div>
-                    </div>
-                    <div class="down-menu-right">
                         <div class="achivments col-md-6 d-flex flex-column py-4">
                             <div class="achivments_first_row d-flex">
                                 <div class="col-4 achivment_wrapper">
                                     <div class="achivment_title">
                                         #1
-                                        <img src="img/cup.png" alt="cup">
+                                        <img src="image_resources/cup.png" alt="cup">
                                     </div>
                                     <div class="achivment_description">
                                         Drupal developer <br> in the Runet Rating
@@ -130,7 +164,8 @@
                 </div>
             </div>
         </div>
-
     </header>
+
+
 </body>
 </html>
