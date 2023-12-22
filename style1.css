@@ -198,6 +198,124 @@ header,
     font-size: 15px;
 }
 
+.Achievement {
+    position: relative;
+    z-index: 10;
+}
+
+.support {
+    width: 90%;
+    max-height: 1000px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-sup {
+    font-size: 42px;
+}
+
+.element-support {
+    width: 24%;
+}
+
+.help {
+    width: 90%;
+    position: relative;
+}
+
+.divSupport1 {
+    width: 50%;
+}
+
+.support-services {
+    width: 90%;
+    flex-direction: column;
+}
+
+.help-services {
+    width: 100%;
+}
+
+.image-support {
+    margin-bottom: 30px;
+}
+
+.help-header {
+    margin-bottom: 20px;
+}
+
+.element-line-support1,
+.element-line-support2 {
+    height: 250px;
+}
+
+.divHelp1 {
+    align-self: center;
+}
+
+.number {
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.help-titles {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+.help-title {
+    font-weight: bold;
+}
+
+.text-help {
+    font-size: 13px;
+    margin: 0;
+    max-height: 100px;
+}
+
+.expertise {
+    position: relative;
+    background-color: #394047;
+    height: 80vh;
+    width: auto;
+    margin-top: -220px;
+}
+
+.element-line-support {
+    max-height: 250px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-help {
+    margin-bottom: 5px;
+}
+
+.element-help {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px rgb(5 12 51 / 5%);
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 100%;
+    position: relative;
+    padding: 25px 25px 45px;
+    min-height: 292px;
+    z-index: 0;
+}
+
+.img-help {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 
 
 
