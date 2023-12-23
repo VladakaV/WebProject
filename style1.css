@@ -17,6 +17,16 @@ h1{
     display: none;
 }
 
+#plans-button {
+     display: inline-block !important;
+     color: #fff !important;
+     padding: 5px 10px !important;
+     text-decoration: none !important;
+     border-radius: 5px !important;
+     border-color: coral !important;
+
+}
+
 .mobileNavBar_btn {
     position: relative;
     color: #151618;
@@ -94,14 +104,14 @@ header,
     width: 20px;
 }
 
-.btn {
+/* .btn {
     display: inline-block !important;
     color: #fff !important;
     padding: 5px 10px !important;
     text-decoration: none !important;
     border-radius: 5px !important;
     border-color: coral !important;
-}
+} */
 
 .btn:hover {
     background-color: coral;
@@ -319,6 +329,130 @@ header,
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.divlaptop {
+    display: flex;
+}
+
+.div1-expertise {
+    width: 600px;
+    height: 600px;
+    scale: 1.0;
+}
+
+.div2-expertise {
+    width: 65%;
+    margin-top: 200px;
+}
+
+.wrapper-expertise {
+    height: 100%;
+}
+
+.empty-div {
+    height: 15%;
+}
+
+.div1-expertise img {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 575px) {
+
+    .expertise {
+        height: 100vh;
+    }
+
+    .empty-div {
+        height: 35%;
+    }
+
+    .div1-expertise {
+        position: absolute;
+        right: 0;
+        bottom: 7%;
+    }
+
+    .div2-expertise {
+        display: none;
+    }
+}
+
+.tariff_header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tariff_back {
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    max-height: 600px;
+    height: 100%;
+    opacity: 50%;
+}
+
+.tariff_panel {
+    max-width: 370px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    transition: transform .2s;
+    background-color: #ffffff;
+}
+
+.tariff_panel ul {
+    padding-left: 20px;
+}
+
+.tariff_panel li {
+    margin-bottom: 10px;
+}
+
+.tariff_panel:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+    background-color: #ffffff;
+
+}
+
+.tariff_panel:hover .btn {
+    background-color: coral;
+}
+
+.tariff_panel h3 {
+    border-bottom-style: solid;
+    border-color: rgb(53, 51, 50);
+    border-width: 2px;
+
+}
+
+.tariff_panel .btn {
+    color: black;
+}
+
+.tariff_content {
+    padding: 30px 20px;
+}
+
+.tariff_dop {
+    font-size: small;
+}
+
+.tariff_content_header {
+    margin: 30px 0;
+}
+
+.tariff_wrapper {
+    margin: 10px 0;
+}
+
+.tariff_block {
+    background: url("image_resources/D-background-opacity.svg") no-repeat right top, #fff;
+    background-size: cover;
 }
 
 
