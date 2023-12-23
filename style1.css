@@ -2,6 +2,11 @@
 body {
     font-family: "Montserrat";
 }
+h1{
+    font-weight: bold; 
+    font-size: 42px; 
+    color: black; 
+}
 
 .mobileNavBar_block {
     position: fixed;
@@ -315,7 +320,5 @@ header,
     bottom: 0;
     z-index: -1;
 }
-
-
 
 
