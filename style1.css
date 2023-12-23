@@ -483,3 +483,54 @@ header,
     margin-bottom: 20px;
 }
 
+.con img,
+.con {
+    border-radius: 10px;
+}
+
+.con_back {
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.con_text {
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.con_text_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.con2 .con_back {
+    margin-left: 5px;
+    background-image: url(../image_resources/cases2.jpg);
+}
+
+.con3 .con_back {
+    background-image: url(../image_resources/cases4.jpg);
+}
+
+.con4 .con_back {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url(../image_resources/cases5.jpg);
+}
+
+.cases img {
+    width: 100%;
+    height: auto;
+}
+
+.cases_header {
+    font-weight: bold;
+    text-align: center;
+}
