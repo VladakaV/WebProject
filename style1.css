@@ -1,12 +1,5 @@
 
-body {
-    font-family: "Montserrat";
-}
-h1{
-    font-weight: bold; 
-    font-size: 42px; 
-    color: black; 
-}
+
 
 .mobileNavBar_block {
     position: fixed;
@@ -455,4 +448,36 @@ header,
     background-size: cover;
 }
 
+/* team */
+
+.team_header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.team_block p {
+    font-weight: 1000;
+}
+.btn1 {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+.btn1:hover {
+    background-color: coral;
+    color: white;
+  }
+.team_photo {
+    height: 280px;
+    width: 280px;
+    display: block;
+    margin-bottom: 10px;
+}
+.team_panel {
+    padding: 0 45px;
+    margin-bottom: 20px;
+}
 
