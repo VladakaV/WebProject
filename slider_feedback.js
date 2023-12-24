@@ -4,11 +4,12 @@ $(document).ready(function () {
         slidesToShow:1,
         slidesToScroll:1,
         speed: 1000,
-        draggable: false,
+        dots: false,
         responsive:[
             {
                 breakpoint:576,
                 settings:{
+                    slidesToScroll:1,
                     slidesToShow:1
                 }
             }

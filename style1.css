@@ -576,8 +576,38 @@ header,
 .slider .slider_item{
     text-align: center;
 }*/
+.feetbeck_header{
+    font-weight: bold;
+    text-align: center;
+    
+}
+.feetback{
+    background: url('image_resources/right-quote-sign.svg') no-repeat left top;
+}
+.slider .slick-list {
+	overflow: hidden;
+}
+.slider{
+    position: relative;
+    padding: 60px 200px;
+    margin: 0, 150px;
+}
+.osnovn_cont{
+    padding: 14px, 60px;
+}
+.slider .slick-list {
+    margin: 20px;
+  
+}
+.osnov_text_cont{
+    padding-top: 40px;
+    font-weight: bold;
+}
+
 
 /* partner */
+
+
 .partner-logo-img {
     max-width: 350px;
     width: 100%;
