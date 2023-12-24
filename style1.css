@@ -1,6 +1,9 @@
-
-
-
+body {
+    font-family: "Montserrat";
+}
+h1{
+    font-weight: bold; font-size: 42px; color: black;
+}
 .mobileNavBar_block {
     position: fixed;
     bottom: 0;
@@ -602,6 +605,19 @@ header,
 .osnov_text_cont{
     padding-top: 40px;
     font-weight: bold;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
