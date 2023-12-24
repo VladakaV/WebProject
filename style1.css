@@ -512,17 +512,19 @@ header,
 
 .con2 .con_back {
     margin-left: 5px;
-    background-image: url(../image_resources/cases2.jpg);
+    background-image: url('image_resources/cases2.jpg');
+   
 }
 
 .con3 .con_back {
-    background-image: url(../image_resources/cases4.jpg);
+    background-image: url('image_resources/cases4.jpg');
+
 }
 
 .con4 .con_back {
     margin-left: 5px;
     margin-right: 5px;
-    background-image: url(../image_resources/cases5.jpg);
+    background-image: url('image_resources/cases5.jpg');
 }
 
 .cases img {
@@ -533,4 +535,82 @@ header,
 .cases_header {
     font-weight: bold;
     text-align: center;
+}
+
+/* feetbeck
+.feetbeck_header{
+    font-weight: bold;
+    text-align: center;
+}
+
+.slider .slick-arrow.slick-prev{
+    left:0;
+    &::before{
+        content:"\276E";
+    }
+}
+.slider .slick-arrow.slick-next{
+    right:0;
+    &::before{
+        content:"\276F";
+    }
+}
+.slider .slick-list {
+	overflow: hidden;
+}
+.slider{
+    position: relative;
+    padding: 60px;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 40%;
+    font-size:0;
+    width: 30px;
+    height: 50px;
+}
+
+.slider .slick-slider{
+    padding: 0;
+}
+.slider .slider_item{
+    text-align: center;
+}*/
+
+/* partner */
+.partner-logo-img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.partners_block {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+.partner-slide {
+    margin: 5px;
+    display: inline-block;
+}
+
+.partners_block img {
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.slider1 .slick-arrow{
+    position: absolute;
+    top: 50%;
+}
+.slider1{
+    position: relative;
+    right: 25%;
+}
+.slide_item1{
+    margin: 5px;
+}
+.slick-track{
+	display: flex;
+	align-items: flex-start;
 }
