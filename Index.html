@@ -19,6 +19,9 @@
     <script src="mobile_navbar.js" defer></script>
     <script src="slider_feedback.js" defer></script>
     <script src="partners.js" defer></script>
+    <script src="accordion.js" defer></script>
+    <script src="animation.js" defer></script>
+    <script src="popup.js" defer></script>
 
     
     <link rel="stylesheet" href="slick2.css">
@@ -738,8 +741,172 @@
                 </div>
             </div>
         </div>
-
+        <div class="FAQ_block container py-5 col-12 col-md-9 col-lg-8">
+            <div class="FAQ_header">
+                <h1>FAQ</h1>
+            </div>
+            <div class="FAQ_body accordion">
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>1.</p>Вопрос 1
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Ответ 1
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>2.</p>Вопрос 2
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Ответ 2
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>3.</p>Вопрос 3
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Ответ 3
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>4.</p>Вопрос 4
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Ответ 4
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>5.</p>Вопрос 5
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Ответ 5
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+
+    <footer>
+        <div class="footer_block container  my-5">
+            <div class="all_footer d-flex flex-wrap my-4">
+                <div class="footer_info col-md-6 col-xs-12 col-sm-6 p-0 my-3">
+                    <div class="footer_wrapper mr-0 mr-md-5">
+                        <div class="support_text mb-3 ">
+                            Подать заявку на поддержку или разработку сайта
+                        </div>
+                        <div class="support_text2 pb-2 pb-md-5">Вам нужно доработать функционал готового
+                            Drupal-сайта
+                            или создать новый? Оценить стоимость разработки под ваши запросы? Просто
+                            свяжитесь с нами, и наш менеджер поможет вам!
+                        </div>
+                        <div class="contacts pt-2 pt-md-5">
+                            <a href="tel:">+8(918)641-70-**</a> <br>
+                            <a href="mailto:">pechkanovalera@gmail.com</a>
+                            <a href="mailto:">VladakaV@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_form col-md-6 col-xs-12 col-sm-6 p-0 my-3">
+                    <div class="footer_wrapper ml-0 ml-md-5">
+                        <form id="popupForm" class="footer_form d-flex flex-column align-items-stretch"
+                            accept-charset="UTF-8">
+                            <label>
+                                <input class="form_elem form_name" id="formName" name="field_name"
+                                    placeholder="Ваше имя" required>
+                            </label>
+                            <label>
+                                <input class="form_elem form_number" id="formNumber" name="field_number"
+                                    placeholder="Ваш номер" required>
+                            </label>
+                            <label>
+                                <input class="form_elem form_email" id="formEmail" name="field_email" type="email"
+                                    placeholder="Ваш email" required>
+                            </label>
+                            <label>
+                                <textarea class="form_elem form_message" id="formMessage" name="field_review"
+                                    placeholder="Ваш коментарий" rows="3"></textarea>
+                            </label>
+                            <label>
+                                <input class="form_check" id="formCheck" name="field_check" type="checkbox">
+                                Отправляя заявку, я
+                                соглашаюсь на <a href="/privacy-policy">обработку моих персональных данных</a>
+                            </label>
+                            <input class="btn" type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="underline">
+            <div class="container">
+                <div class="lower_part">
+                    <p>Copyright &copy; Initlab, LLC <br> Drupal is a registered trademark of Dries Buytaert.</p>
+                </div>
+            </div>
+        </div>
+        <img class="footer_paw paw1" src="image_resources/drupal-coder.svg" alt="paw" />
+        <img class="footer_paw paw2" src="image_resources/drupal-coder.svg" alt="paw" />
+    </footer>
+
+    <div id="popup" class="popup">
+        <div id="popupBody" class="popupBody">
+            <div class="popupContent">
+                <button class="popupClose mt-3 ml-3 mb-2" id="popupClose" type="button">✖</button>
+                <form id="popupForm1" class="popupForm d-flex flex-column align-items-stretch" accept-charset="UTF-8">
+                    <label class="px-3">
+                        <input class="form_elem form_name" id="formName1" name="field_name" placeholder="Ваше имя"
+                            required>
+                    </label>
+                    <label class="px-3">
+                        <input class="form_elem form_number" id="formNumber1" name="field_number"
+                            placeholder="Ваш номер" required>
+                    </label>
+                    <label class="px-3">
+                        <input class="form_elem form_email" id="formEmail1" name="field_email" type="email"
+                            placeholder="Ваш email" required>
+                    </label>
+                    <label class="px-3">
+                        <textarea class="form_elem form_message" id="formMessage1" name="field_review"
+                            placeholder="Ваш коментарий" rows="3"></textarea>
+                    </label>
+                    <label class="mx-3">
+                        <input class="form_check" id="formCheck1" name="field_check" type="checkbox">
+                        Отправляя заявку, я
+                        соглашаюсь на <a href="/privacy-policy">обработку моих персональных данных</a>
+                    </label>
+                    <input class="btn mx-3 mb-3" type="submit" value="Отправить">
+                    <div id="formAnswer" class="px-3 pb-3"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
 
 
 </body>

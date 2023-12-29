@@ -660,3 +660,166 @@ header,
 	display: flex;
 	align-items: flex-start;
 }
+
+/* FAQ */
+
+.FAQ_header {
+    text-align: center;
+}
+
+.FAQ_block p {
+    margin: 0px;
+    display: inline-block;
+}
+
+.FAQ_block h3 {
+    margin: 0px;
+}
+
+
+.FAQ_elem {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.FAQ_elem.active {
+    width: 100%;
+    border-color: coral;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.FAQ_body {
+    width: 100%;
+}
+
+
+
+
+/*-------------------FOOTER-----------------------*/
+
+footer {
+    position: relative;
+    background-color: #394047;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.all_footer {
+    position: relative;
+    z-index: 10;
+}
+
+footer a {
+    color: white;
+}
+
+.support_text {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1.25;
+}
+
+.lower_part {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.underline {
+    position: relative;
+    border-top: 2px solid gray;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+input {
+    background: transparent;
+    border: none;
+}
+
+.footer_paw {
+    position: absolute;
+    transform: rotate(-40deg);
+    z-index: 3;
+}
+
+footer .paw1 {
+    top: -10%;
+    left: 50%;
+}
+
+footer .paw2 {
+    bottom: -10%;
+    right: 5%;
+    scale: 1.4;
+}
+
+
+/* form */
+.footer_form .btn {
+    background-color: coral;
+    color: black;
+}
+
+.footer_form .btn:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.footer_form a {
+    color: coral;
+}
+
+.form_elem {
+    padding: 13px 15px;
+    color: white;
+    position: relative;
+    width: 100%;
+    border-style: solid;
+    border-color: #151618;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: transparent;
+}
+
+
+
+/* popup */
+
+.popup {
+    opacity: 0;
+    max-width: 500px;
+    width: 90%;
+    background-color: #394047;
+    border: solid 3px #151618;
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
+
+.popupClose {
+    color: #151618;
+    background-color: coral;
+    border-style: solid;
+    border-color: #151618;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.popupClose:hover {
+    color: coral;
+    background-color: transparent;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.popup #formAnswer {
+    text-align: center;
+}
