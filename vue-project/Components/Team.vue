@@ -19,9 +19,9 @@
       </div>
 
     </div>
-    <div class="team_button d-flex justify-content-center pb-5">
-      <a class="btn px-4 py-3" href="/team.html">Вся команда</a>
-    </div>
+        <div class="team_button d-flex justify-content-center pb-5">
+            <button class="btn1 px-5 py-1">вся команда</button>
+        </div>
   </div>
 </template>
 
