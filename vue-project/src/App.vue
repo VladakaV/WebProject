@@ -1,14 +1,20 @@
 <template>
-  <Header/>
+  <OurDev/>
+  <Team/>
+
 </template>
 
 <script>
-import Header from "../Compo/Header.vue";
+
+import OurDev from "../Components/OurDev";
+import Team from "../Components/Team";
 
 
 export default {
   components: {
-    Header
+    
+    OurDev,
+    Team,
   }
 
 }
