@@ -1,0 +1,52 @@
+{
+  "name": "vue3-rich-accordion",
+  "license": "MIT",
+  "homepage": "https://github.com/sticker0ne/vue3-rich-accordion",
+  "author": "St1cker0ne",
+  "keywords": ["vue", "vue3", "vue 3", "accordion", "collapse", "pannel", "panel"],
+  "version": "0.0.7",
+  "files": ["dist"],
+  "main": "./dist/accordion-library.umd.js",
+  "module": "./dist/accordion-library.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/accordion-library.es.js",
+      "require": "./dist/accordion-library.umd.js"
+    },
+    "./accordion-library-styles.css": "./dist/accordion-library-styles.css",
+    "./accordion-library-styles.scss": "./dist/accordion-library-styles.scss"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build:library": "ts-node --skipProject buildLibrary.ts",
+    "build:gh-pages": "vite build --mode gh-pages",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.2",
+    "@types/node": "^18.0.5",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "@vue/tsconfig": "^0.1.3",
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "rollup-plugin-friendly-type-imports": "^1.0.2",
+    "sass": "^1.49.9",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.4",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12",
+    "vue-script-tsc": "^1.3.0",
+    "vue-tsc": "^0.31.4"
+  }
+}
