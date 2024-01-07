@@ -1,6 +1,7 @@
 <template>
   <OurDev/>
   <Team/>
+  <Cases/>
 
 </template>
 
@@ -8,6 +9,7 @@
 
 import OurDev from "../Components/OurDev";
 import Team from "../Components/Team";
+import Cases from "../Components/Cases";
 
 
 export default {
@@ -15,6 +17,7 @@ export default {
     
     OurDev,
     Team,
+    Cases,
   }
 
 }
