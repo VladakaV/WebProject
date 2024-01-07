@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Header from "../Components/Header.vue";
+import Header from "../Compo/Header.vue";
 
 
 export default {
