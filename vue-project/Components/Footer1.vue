@@ -13,8 +13,8 @@
                 свяжитесь с нами, и наш менеджер поможет вам!
               </div>
               <div class="contacts pt-2 pt-md-5">
-                <a href="tel:">+8(918)641-70-**</a> <br>
-                <a href="mailto:">mur@meow.kot</a>
+                <a href="tel:">+8(988)346-60-**</a> <br>
+                <a href="mailto:">swag@mail.sheesh</a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
       let form = document.getElementById("popupForm");
       form.addEventListener("submit", event => {
           if (check.checked == true) {
-              fetch('https://formcarry.com/s/gf9XxUK37', {
+              fetch('https://formcarry.com/s/0gxD5E0FYNU', {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                   body: JSON.stringify({

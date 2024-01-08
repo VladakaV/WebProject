@@ -9,6 +9,7 @@
   <Cases/>
   <FAQ/>
   <Footer1/>
+  <Form/>
 </template>
 
 <script>
@@ -24,7 +25,7 @@ import Cases from "../Components/Cases";
 import Partners from "../Components/Partners";
 import FAQ from "../Components/FAQ";
 import Footer1 from "../Components/Footer1";
-
+import Form from "../Components/Form";
 export default {
   components: {
     Header,
@@ -38,6 +39,7 @@ export default {
     Partners,
     FAQ,
     Footer1,
+    Form,
   }
 }
 </script>
