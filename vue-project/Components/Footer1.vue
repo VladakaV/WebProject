@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <div class="footer_block container  py-5">
+      <div class="footer_block container  py-5" id = "form">
         <div class="all_footer d-flex flex-wrap my-4">
           <div class="footer_info col-md-6 col-xs-12 col-sm-6 p-0 my-3">
             <div class="footer_wrapper mr-0 mr-md-5">
