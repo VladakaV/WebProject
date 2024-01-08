@@ -76,9 +76,7 @@ window.addEventListener("DOMContentLoaded", function () {
             })
                 .then(response => console.log(response))
                 .then((data) => {
-                    let r = document.getElementById("formAnswer");
-                    r.innerHTML = "Success!";
-                    r.style.color = "lightgreen";
+                    alert("Success!");
                     localStorage.removeItem('formName');
                     localStorage.removeItem('formNumber');
                     localStorage.removeItem('formEmail');
@@ -89,11 +87,7 @@ window.addEventListener("DOMContentLoaded", function () {
                     message.value = localStorage.getItem('formMessage');
                     check.checked = false;
                 })
-                .catch((error) => {
-                    let r = document.getElementById("formAnswer");
-                    r.innerHTML = "Error!";
-                    r.style.color = "red";
-                });
+                .catch((error) => { alert(error.value); });
             event.preventDefault();
         }
         else {
