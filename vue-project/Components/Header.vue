@@ -51,7 +51,7 @@
               <div class="drupal_development col-md-6 col-6 py-4">
                 <h1 class="m-0">Drupal <br> development</h1>
                 <div class="m-1"> Development and support of <br> Drupal-powered websites since 2005</div>
-                <a href="#tariff_block" class="btn m-1">Plans</a>
+                <a href="#tariff" class="btn m-1">Plans</a>
               </div>
               <div class="achivments col-md-6 d-flex flex-column py-4">
                 <div class="achivments_first_row d-flex">
