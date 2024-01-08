@@ -13,7 +13,6 @@
 </template>
 
 <script>
-
 import MobileNav from "../Components/MobileNav"
 import Header from "../Components/Header";
 import Achievement from "../Components/Achievement";
@@ -26,6 +25,7 @@ import Partners from "../Components/Partners";
 import FAQ from "../Components/FAQ";
 import Footer1 from "../Components/Footer1";
 import Form from "../Components/Form";
+
 export default {
   components: {
     Header,
