@@ -10,6 +10,7 @@
               <div class="d-flex justify-content-around px-2">
                 <div class="px-2 flex-fill">
                   <a href="" title="Drupal support">DRUPAL SUPPORT</a>
+                 
                 </div>
                 <div class="dropdown_main px-2 flex-fill">
                   <div class="dropdown">
