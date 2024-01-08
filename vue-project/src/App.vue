@@ -8,7 +8,7 @@
   <Team/>
   <Cases/>
   <FAQ/>
-
+  <Footer1/>
 </template>
 
 <script>
@@ -23,8 +23,7 @@ import Team from "../Components/Team";
 import Cases from "../Components/Cases";
 import Partners from "../Components/Partners";
 import FAQ from "../Components/FAQ";
-
-
+import Footer1 from "../Components/Footer1";
 
 export default {
   components: {
@@ -38,6 +37,7 @@ export default {
     Cases,
     Partners,
     FAQ,
+    Footer1,
   }
 }
 </script>
