@@ -40,8 +40,31 @@ export default {
     FAQ,
     Popup,
     Footer1,
+  },
+  mounted() {
+    this.animateOpacity();
+  },
+  methods: {
+    animateOpacity() {
+      const abc = document.getElementById("popup");
+      abc.style.opacity = 0;
+      
+      const duration = 500;
+      let start;
+
+      const step = (timestamp) => {
+        if (!start) start = timestamp;
+        const opacity = (timestamp - start) / duration;
+        abc.style.opacity = opacity;
+        if (opacity >= 1) return;
+        window.requestAnimationFrame(step);
+      };
+
+      window.requestAnimationFrame(step);
+    },
+  },
+
   }
-}
 </script>
 
 <style>
