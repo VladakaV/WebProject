@@ -60,10 +60,13 @@ window.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('formMessage', message.value);
     });
 
+    const  load = document.getElementById('popupBody');
+
     let check = document.getElementById("formCheck1");
     let form = document.getElementById("popupForm1");
     form.addEventListener("submit", event => {
         if (check.checked == true) {
+            load.classList.add('_sending');
             fetch('https://formcarry.com/s/0gxD5E0FYNU', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -77,6 +80,7 @@ window.addEventListener("DOMContentLoaded", function () {
                 .then(response => console.log(response))
                 .then((data) => {
                     alert("Success!");
+                    load.classList.remove('_sending');
                     localStorage.removeItem('formName');
                     localStorage.removeItem('formNumber');
                     localStorage.removeItem('formEmail');
@@ -135,4 +139,21 @@ window.addEventListener("DOMContentLoaded", function () {
     border-radius: 5px;
     border-width: 2px;
 }
+.popupBody::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background: #757c838f url("../img/load.gif") center / 50px no-repeat;
+    opacity: 0;
+    visibility: hidden;
+}
+.popupBody._sending::after{
+    opacity: 1;
+    visibility: visible;
+}
+
 </style>
