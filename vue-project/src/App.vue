@@ -7,6 +7,7 @@
   <OurDev/>
   <Team/>
   <Cases/>
+  <Partners/>
   <FAQ/>
   <Popup/>
   <Footer1/>
