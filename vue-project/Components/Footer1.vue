@@ -10,17 +10,17 @@
               <div class="support_text2 pb-2 pb-md-5">Вам нужно доработать функционал готового
                 Drupal-сайта
                 или создать новый? Оценить стоимость разработки под ваши запросы? Просто
-                свяжитесь с нами, и наш менеджер поможет вам!
+                свяжитесь с нами, и наш менеджер обязательно поможет вам!
               </div>
               <div class="contacts pt-2 pt-md-5">
                 <a href="tel:">+8(988)346-60-**</a> <br>
-                <a href="mailto:">swag@mail.sheesh</a>
+                <a href="mailto:">inevadayr@mail.ru</a>
               </div>
             </div>
           </div>
   
   
-          
+
           <div class="footer_form col-md-6 col-xs-12 col-sm-6 p-0 my-3">
             <div class="footer_wrapper ml-0 ml-md-5">
               <form id="popupForm" class="popupForm d-flex flex-column align-items-stretch" accept-charset="UTF-8">
@@ -28,7 +28,7 @@
                   <input class="form_elem form_name" id="formName" name="field_name" placeholder="Ваше имя" required>
                 </label>
                 <label>
-                  <input class="form_elem form_number" id="formName" name="field_name" placeholder="Ваш номер" required>
+                  <input class="form_elem form_number" id="formNumber" name="field_number" placeholder="Ваш номер" required>
                 </label>
                 <label>
                   <input class="form_elem form_email" id="formEmail" name="field_email" type="email"
@@ -62,9 +62,9 @@
   </template>
   
   <script>
-  window.addEventListener("DOMContentLoaded", function () {
-      let name = document.getElementById("formName");
-      let number = document.getElementById("formNumber");
+window.addEventListener("DOMContentLoaded", function () {
+    let name = document.getElementById("formName");
+    let number = document.getElementById("formNumber");
       let email = document.getElementById("formEmail");
       let message = document.getElementById("formMessage");
   
