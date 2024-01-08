@@ -2,6 +2,7 @@
   <Header/>
   <MobileNav/>
   <Achievement/>
+  <Expertise/>
   <OurDev/>
   <Team/>
   <Cases/>
@@ -14,6 +15,7 @@
 import MobileNav from "../Components/MobileNav"
 import Header from "../Components/Header";
 import Achievement from "../Components/Achievement";
+import Expertise from "../Components/Expertise";
 import OurDev from "../Components/OurDev";
 import Team from "../Components/Team";
 import Cases from "../Components/Cases";
@@ -26,6 +28,7 @@ export default {
     Header,
     MobileNav,
     Achievement,
+    Expertise,
     OurDev,
     Team,
     Cases,
