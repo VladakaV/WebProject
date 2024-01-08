@@ -12,81 +12,81 @@
           </div>
         </div>
         <div class="divSupport2 d-flex flex-wrap">
-          <div class="support-services d-flex">
-            <div class="element-line-support1 d-flex justify-content-between">
-              <div class="element-support">
+          <div class="support-services column">
+            <div class="element-line-support1 row">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-1.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-1.svg" alt="Error">
                 </div>
                 <div>
-                  <h6>Добавление информации на сайт,
-                    создание новых разделов</h6>
+                  <div class = "support-text-element">Добавление информации на сайт,
+                    создание новых разделов</div>
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-2.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-2.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Разработка и оптимизация модулей сайта</h6>
+                  <div class="support-text-element">Разработка и оптимизация модулей сайта</div>
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-3.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-3.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Интеграция с CRM, 1C, платёжными системами,
-                    любыми веб-сервисами</h6>
+                  <div class="support-text-element">Интеграция с CRM, 1C, платёжными системами,
+                    любыми веб-сервисами</div>
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-4.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-4.svg" alt="Error">
                 </div>
                 <div>
-                  <h6>
-                    Любые доработки функционала и дизайна
-                  </h6>
+                  <div class="support-text-element">Любые доработки функционала и дизайна</div>
+                    
+                  
                 </div>
               </div>
             </div>
   
-            <div class="element-line-support2 d-flex flex-nowrap justify-content-between">
-              <div class="element-support">
+            <div class="element-line-support2 row">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-5.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-5.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Аудит и мониторинг безопасности Drupal сайтов
-                    <h4 style="color: white">.</h4>
-                  </h6>
+                  <div class="support-text-element">Аудит и мониторинг безопасности Drupal сайтов</div>
+                    <!-- <h4 style="color: white">.</h4> -->
+                  
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-6.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-6.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Миграция, импорт контента и
-                    апгрейд Drupal</h6>
+                  <div class="support-text-element">Миграция, импорт контента и
+                    апгрейд Drupal</div>
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-7.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-7.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Оптимизация и ускорение Drupal-сайтов</h6>
-                  <h4 style="color: white">.</h4>
+                  <div class="support-text-element">Оптимизация и ускорение Drupal-сайтов</div>
+                  
                 </div>
               </div>
-              <div class="element-support">
+              <div class="element-support col-md-3 col-xs-12 col-sm-6">
                 <div class="image-support">
-                  <img src="../img/competency-8.svg" style="height: 80px; width: 68px" alt="Error">
+                  <img src="../img/competency-8.svg"  alt="Error">
                 </div>
                 <div>
-                  <h6>Веб-маркетинг, консультации и работы по SEO</h6>
+                  <div class="support-text-element">Веб-маркетинг, консультации и работы по SEO</div>
                 </div>
               </div>
             </div>
@@ -244,12 +244,20 @@
     position: relative;
     z-index: 10;
   }
+  .element-support.img {
+    height: 80px; 
+    width: 68px;
+  }
   
   .support {
     width: 90%;
-    max-height: 1000px;
+    /* max-height: 1000px; */
     padding-top: 100px;
     margin-bottom: 100px;
+  }
+
+  .support-text-element {
+    font-size: 15px;
   }
   
   .text-sup {
@@ -259,11 +267,25 @@
     .text-sup {
       font-size: 30px;
     }
+    .support-text-element {
+      font-size: 15px;
+    }
+    .element-support {
+      padding: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+    .element-support.img {
+      width: 40px;
+      height: 40px;
+      padding-right: 20%;
+    }
+
   }
   
-  .element-support {
+  /* .element-support {
     width: 24%;
-  }
+  } */
   
   .support_text {
     font-weight: bold;
@@ -297,10 +319,10 @@
     margin-bottom: 20px;
   }
   
-  .element-line-support1,
+  /* .element-line-support1,
   .element-line-support2 {
     height: 250px;
-  }
+  } */
   
   .divHelp1 {
     align-self: center;
@@ -336,9 +358,9 @@
     margin-top: -220px;
   }
   
-  .element-line-support {
+  /* .element-line-support {
     max-height: 250px;
-  }
+  } */
   
   .row {
     margin-left: -15px;
