@@ -255,6 +255,11 @@
   .text-sup {
     font-size: 42px;
   }
+  @media screen and (max-width: 575px) {
+    .text-sup {
+      font-size: 30px;
+    }
+  }
   
   .element-support {
     width: 24%;

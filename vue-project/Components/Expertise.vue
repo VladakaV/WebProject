@@ -13,7 +13,7 @@
                 <h1 style="margin-bottom: 50px; color: white; width: 40%;"><strong>Экспертиза в Drupal,
                   опыт 18 лет!</strong></h1>
               </div>
-              <div id="2div" class="d-flex flex-row">
+              <div id="second-div" class="d-flex flex-row">
                 <div class="d-flex">
                   <div style="height: 100px; width: 3px; background-color: red;">
                   </div>
@@ -82,12 +82,23 @@
     .empty-div {
       height: 35%;
     }
+    
   
     .div1-expertise {
       position: absolute;
       right: 0;
       bottom: 7%;
     }
+    .div2-expertise {
+      z-index: -2 !important;
+    }
+    #second-div {
+      display: flex !important;
+      flex-direction: column !important; 
+      z-index: -1 !important;
+    }
+
+    
   }
   
   

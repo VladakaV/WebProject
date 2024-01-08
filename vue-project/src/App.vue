@@ -1,4 +1,5 @@
 <template>
+  
   <Header/>
   <MobileNav/>
   <Achievement/>
@@ -69,4 +70,5 @@ export default {
 </script>
 
 <style>
+
 </style>
