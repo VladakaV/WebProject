@@ -239,6 +239,14 @@
   
   <style >
   /* Support, help, expertize */
+   @media (max-width: 767px) {
+    .text-sup {
+      font-size: 28px; /* Уменьшаем размер шрифта для заголовка на мобильных устройствах */
+    }
+    .element-support h6 {
+      font-size: 14px; /* Уменьшаем размер шрифта для элементов списка на мобильных устройствах */
+    }
+  }     
   
   .Achievement {
     position: relative;
