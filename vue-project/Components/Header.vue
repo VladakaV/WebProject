@@ -9,33 +9,33 @@
             <div class="nav_bar p-2">
               <div class="d-flex justify-content-around px-2">
                 <div class="px-2 flex-fill">
-                  <a href="" title="Drupal support">DRUPAL SUPPORT</a>
+                  <a href="" title="Drupal support">ПОДДЕРЖКА DRUPAL</a>
                  
                 </div>
                 <div class="dropdown_main px-2 flex-fill">
                   <div class="dropdown">
-                    <p class="m-0">WEB SERVER ADMINISTRATION◿</p>
+                    <p class="m-0">АДМИНИСТРИРОВАНИЕ◿</p>
                     <div class="dropdown-content ">
-                      <a class="drop_a_1" href="#">Migration</a>
-                      <a class="drop_a_2" href="#">Backups</a>
-                      <a class="drop_a_3" href="#">Optimization</a>
+                      <a class="drop_a_1" href="#">МИГРАЦИЯ</a>
+                      <a class="drop_a_2" href="#">БЭКАПЫ</a>
+                      <a class="drop_a_3" href="#">ОПТИМИЗАЦИЯ</a>
                     </div>
                   </div>
                 </div>
                 <div class="px-2 flex-fill">
-                  <a href="" title="Blog">BLOG</a>
+                  <a href="" title="Blog">БЛОГ</a>
                 </div>
                 <div class="px-2 flex-fill">
-                  <a href="" title="SEO promotion">SEO PROMOTION</a>
+                  <a href="" title="SEO promotion">РЕКЛАМА</a>
                 </div>
                 <div class="px-2 flex-fill">
-                  <a href="" title="About">ABOUT</a>
+                  <a href="" title="About">МЫ</a>
                 </div>
                 <div class="px-2 flex-fill">
-                  <a href="#customers" title="Customers">CUSTOMERS</a>
+                  <a href="#customers" title="Customers">ПРОЕКТЫ</a>
                 </div>
                 <div class="px-2 flex-fill">
-                  <a href="#contacts" title="Contacts">CONTACTS</a>
+                  <a href="#contacts" title="Contacts">КОНТАКТЫ</a>
                 </div>
               </div>
             </div>
@@ -49,9 +49,9 @@
           <div class="content container">
             <div class="d-flex flex-wrap pt-5">
               <div class="drupal_development col-md-6 col-6 py-4">
-                <h1 class="m-0">Drupal <br> development</h1>
-                <div class="m-1"> Development and support of <br> Drupal-powered websites since 2005</div>
-                <a href="#tariff" class="btn m-1">Plans</a>
+                <h1 class="m-0">Drupal<br> development</h1>
+                <div class="m-1"> Сопровождение сайтов<br> на CMS Drupal любых версий</div>
+                <a href="#tariff" class="btn m-1">Тарифы</a>
               </div>
               <div class="achivments col-md-6 d-flex flex-column py-4">
                 <div class="achivments_first_row d-flex">

@@ -1,20 +1,20 @@
 <template>
     <div class="mobileNavBar_block">
       <div class="accordion">
-        <h3><a href="" title="Drupal support">DRUPAL SUPPORT</a></h3>
-        <h3 class="accordion">WEB SERVER ADMINISTRATION◿</h3>
+        <h3><a href="" title="Drupal support">ПОДДЕРЖКА DRUPAL</a></h3>
+        <h3 class="accordion">АДМИНИСТРИРОВАНИЕ◿</h3>
         <div class="dropdown-content-mobile ">
-          <h5><a class="drop_a_1-m py-1" href="#">Migration</a></h5>
+          <h5><a class="drop_a_1-m py-1" href="#">МИГРАЦИЯ</a></h5>
           <div>
-            <h5><a class="drop_a_2-m py-1" href="#">Backups</a></h5>
+            <h5><a class="drop_a_2-m py-1" href="#">БЭКАПЫ</a></h5>
           </div>
-          <h5><a class="drop_a_3-m py-1" href="#">Optimization</a></h5>
+          <h5><a class="drop_a_3-m py-1" href="#">ОПТИМИЗАЦИЯ</a></h5>
         </div>
-        <h3><a href="" title="Blog">BLOG</a></h3>
-        <h3><a href="l" title="SEO promotion">SEO PROMOTION</a></h3>
-        <h3><a href="" title="About">ABOUT</a></h3>
-        <h3><a href="#customers" title="Customers">CUSTOMERS</a></h3>
-        <h3><a href="#contacts" title="Contacts">CONTACTS</a></h3>
+        <h3><a href="" title="Blog">БЛОГ</a></h3>
+        <h3><a href="l" title="SEO promotion">РЕКЛАМА</a></h3>
+        <h3><a href="" title="About">О НАС</a></h3>
+        <h3><a href="#customers" title="Customers">ПРОЕКТЫ</a></h3>
+        <h3><a href="#contacts" title="Contacts">КОНТАКТЫ</a></h3>
       </div>
       <div class="mobileNavBar_sidebar d-flex justify-content-between">
         <div class="mobileNavBar_logo pt-2">
